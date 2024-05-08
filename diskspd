@@ -3,3 +3,21 @@
 
 https://learn.microsoft.com/pt-br/azure-stack/hci/manage/diskspd-overview
 
+
+1. Random Read IOPS 
+      diskspd.exe -c1G -d60 -w0 -t8 -o60 -b4k -r -h -L F:\IO.dat
+
+2. Random Write IOPS.
+diskspd.exe -c1G -d60 -w100 -t8 -o60 -b4k -r -h -L F:\IO.dat
+ 
+3. Random Read & write IOPS. 
+     diskspd.exe -c1G -d60 -w50 -t8 -o60 -b4k -r -h -L F:\IO.dat
+ 
+4. Random Read throughput 
+       diskspd.exe -c1G -d60 -w0 -t8 -o60 -b128k -r -h -L F:\IO.dat
+ 
+5. Random write Throughput 
+diskspd.exe -c1G -d60 -w100 -t8 -o60 -b128k -r -h -L F:\IO.dat
+ 
+6. Random read write Throughput. 
+       diskspd.exe -c1G -d60 -w50 -t8 -o60 -b128k -r -h -L F:\IO.dat
