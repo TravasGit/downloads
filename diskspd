@@ -1,4 +1,5 @@
-<br>
+
 .\diskspd -t2 -o32 -b4k -r4k -w0 -d120 -Sh -D -L -c5G C:\ClusterStorage\test01\targetfile\IO.dat > test01.txt
-<|br>
+
+https://learn.microsoft.com/pt-br/azure-stack/hci/manage/diskspd-overview
 
